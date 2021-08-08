@@ -1,0 +1,54 @@
+app-masters{
+  flex: 1 0 40px;
+  border: 2px solid red;
+  text-align: center;
+  min-width: 90px;
+}
+app-masters:hover{
+  background-color: red;
+  cursor: pointer;
+}
+
+app-industry{
+  flex: 1 0 40px;
+  border: 2px solid blue;
+  text-align: center;
+  min-width: 90px;
+}
+app-industry:hover{
+  background-color: blue;
+  cursor: pointer;
+}
+
+app-bachelors{
+  text-align: center;
+  flex: 1 0 40px;
+  border: 2px solid black;
+}
+app-bachelors:hover{
+  background-color: black;
+  cursor: pointer;
+}
+
+app-highlights{
+  flex-grow: 2;
+  border: 2px solid yellow;
+  text-align: center;
+}
+app-highlights:hover{
+  background-color: yellow;
+}
+
+.landing{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.category-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  border: 2px solid darkgreen;
+}
+
